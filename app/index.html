@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunset Platinum — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 PlayStation 5 trophies of Grand Theft Auto VI: checklist, roadmap to the platinum, missables, and a cited guide for every trophy.">
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<header class="site-header">
+  <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; Offline guide</p>
+  <h1>Sunset Platinum</h1>
+  <p class="subtitle">Every one of the 55 trophies, a guide in our own words with its sources, and a tracker that remembers your progress.</p>
+  <p class="list-makeup" id="list-makeup">55 trophies &middot; 1 platinum &middot; 2 gold &middot; 6 silver &middot; 46 bronze &middot; 28 hidden on PlayStation until earned</p>
+  <div class="progress-block" id="progress-block">
+    <p class="progress-text" id="progress-text">Loading the trophy list&hellip;</p>
+    <div class="progress-bar" role="progressbar" aria-label="Trophies earned" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" id="progress-bar"><span class="progress-fill" id="progress-fill"></span></div>
+    <p class="progress-note" id="progress-note"></p>
+  </div>
+</header>
+<nav class="views" aria-label="Guide sections">
+  <button type="button" class="view-tab" data-view="checklist" id="tab-checklist">Checklist</button>
+  <button type="button" class="view-tab" data-view="roadmap" id="tab-roadmap">Roadmap to Platinum</button>
+  <button type="button" class="view-tab" data-view="missables" id="tab-missables">Missables</button>
+  <button type="button" class="view-tab" data-view="planner" id="tab-planner">Next up</button>
+  <button type="button" class="view-tab" data-view="save" id="tab-save">Save &amp; settings</button>
+</nav>
+<main>
+  <section class="view" id="view-checklist" aria-label="Trophy checklist">
+    <div class="controls">
+      <label class="search-label">Search <input id="search" type="search" placeholder="Search name or description&hellip;" autocomplete="off"></label>
+      <div class="kind-filters" id="kind-filters" role="group" aria-label="Filter by kind">
+        <button type="button" class="kind-chip is-active" data-kind="all">All kinds</button>
+        <button type="button" class="kind-chip" data-kind="story">Story</button>
+        <button type="button" class="kind-chip" data-kind="missable">Missable</button>
+        <button type="button" class="kind-chip" data-kind="collectibles">Collectibles</button>
+        <button type="button" class="kind-chip" data-kind="activities">Activities</button>
+        <button type="button" class="kind-chip" data-kind="online">Online</button>
+      </div>
+      <label>Grade
+        <select id="grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label>Sort
+        <select id="sort">
+          <option value="roadmap">Roadmap order</option>
+          <option value="name">Name A&ndash;Z</option>
+          <option value="grade">Grade, best first</option>
+        </select>
+      </label>
+      <label class="check-label"><input type="checkbox" id="hide-earned"> Hide earned</label>
+      <label class="check-label spoiler-label"><input type="checkbox" id="spoilers" checked> Spoiler-safe: hide story trophies until earned</label>
+    </div>
+    <p class="result-count" id="result-count"></p>
+    <div class="checklist-layout">
+      <div class="trophy-list" id="trophy-list" role="list"></div>
+      <aside class="detail-pane" id="detail-pane" aria-label="Trophy guide"></aside>
+    </div>
+  </section>
+  <section class="view" id="view-roadmap" aria-label="Roadmap to the platinum" hidden></section>
+  <section class="view" id="view-missables" aria-label="Missable trophies" hidden></section>
+  <section class="view" id="view-planner" aria-label="Next up planner" hidden></section>
+  <section class="view" id="view-save" aria-label="Save and settings" hidden></section>
+</main>
+<footer class="site-footer">
+  <p>Names, descriptions and grades are the official PlayStation 5 list, as published. Guides are written for this entry, in our own words, from the official descriptions — the game released 19 November 2026, so no guide here has been checked in the game yet, and every guide says so. Sources are named beside each guide; a source is cited, never copied.</p>
+  <p>Sources for the list: <a href="https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/">Exophase — GTA VI trophy list</a> &middot; <a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi">PSNProfiles — GTA VI trophies</a>. This guide works offline: it loads nothing from the network and stores your progress only in this browser.</p>
+  <p class="footer-note">No Rockstar Games logo, artwork, box art or game screenshot is used anywhere in this guide. The look is our own.</p>
+</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
